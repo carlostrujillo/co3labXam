@@ -68,6 +68,9 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client">
       <Version>1.0.4</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>3.0.0-preview.18572.1</Version>
+    </PackageReference>
     <PackageReference Include="UXDivers.GorillaPlayer.SDK.AutoConfig">
       <Version>1.5.0-Beta4</Version>
     </PackageReference>

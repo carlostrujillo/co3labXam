@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 
 using Co.Lab.Models;
+using Co.Lab.MobileAppService.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Co.Lab.MobileAppService
 {
@@ -33,6 +35,7 @@ namespace Co.Lab.MobileAppService
             services.AddSingleton<IItemRepository, ItemRepository>();
             services.AddSignalR();
 
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
