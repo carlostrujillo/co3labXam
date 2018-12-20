@@ -22,7 +22,7 @@ namespace Co.Lab
             else
                 DependencyService.Register<AzureDataStore>();
 
-            MainPage = new MainPage();
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()

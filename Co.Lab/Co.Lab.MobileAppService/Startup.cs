@@ -31,6 +31,7 @@ namespace Co.Lab.MobileAppService
         {
             services.AddMvc();
             services.AddSingleton<IItemRepository, ItemRepository>();
+            services.AddSignalR();
 
             services.AddSwaggerGen(c =>
             {
@@ -45,6 +46,11 @@ namespace Co.Lab.MobileAppService
             loggerFactory.AddDebug();
 
             app.UseMvc();
+
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<SignalRHub>("/SignalRHub");
+            });
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
