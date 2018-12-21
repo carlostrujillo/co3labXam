@@ -11,7 +11,7 @@ namespace Co.Lab.MobileAppService.Models
     {
         public LabDbContext CreateDbContext(string[] args)
         {
-            var connection = @"Server=tcp:measuringpoint.database.windows.net,1433;Initial Catalog=CoLab;Persist Security Info=False;User ID=carlos;Password=All3sIstGut;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            var connection = @"Server=tcp:measuringpoint.database.windows.net,1433;Initial Catalog=CoLab;Persist Security Info=False;User ID={username};Password={password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             
             var optionsBuilder = new DbContextOptionsBuilder<LabDbContext>();
             optionsBuilder.UseSqlServer(connection);
