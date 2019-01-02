@@ -29,7 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\NewFolder\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Compile Remove="Models\LabDbContextFactory.cs" />
+  </ItemGroup>
 </Project>
