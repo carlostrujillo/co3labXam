@@ -9,9 +9,13 @@ namespace Co.Lab.MobileAppService.Models
 {
     public class LabDbContext : DbContext
     {
-        public LabDbContext(DbContextOptions<LabDbContext> options)
-            : base(options)
-        { }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var connection = @"Server=tcp:measuringpoint.database.windows.net,1433;Initial Catalog=CoLab;Persist Security Info=False;User ID=carlos;Password=All3sIstGut;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+
+            optionsBuilder.UseSqlServer(connection);
+        }
 
         public DbSet<Person> Persons { get; set; }
         

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 using Co.Lab.Models;
+using Co.Lab.Interfaces;
 
 namespace Co.Lab.Controllers
 {

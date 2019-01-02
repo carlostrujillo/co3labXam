@@ -10,6 +10,8 @@ using Swashbuckle.AspNetCore.Swagger;
 using Co.Lab.Models;
 using Co.Lab.MobileAppService.Models;
 using Microsoft.EntityFrameworkCore;
+using Co.Lab.Interfaces;
+using Co.Lab.MobileAppService.Interfaces;
 
 namespace Co.Lab.MobileAppService
 {
@@ -33,6 +35,8 @@ namespace Co.Lab.MobileAppService
         {
             services.AddMvc();
             services.AddSingleton<IItemRepository, ItemRepository>();
+            services.AddSingleton<IPersonRepository, PersonRepository>();
+            services.AddDbContext<LabDbContext>();
             services.AddSignalR();
 
             

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿/*using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System;
 using System.Collections.Generic;
@@ -19,4 +19,4 @@ namespace Co.Lab.MobileAppService.Models
             return new LabDbContext(optionsBuilder.Options);
         }
     }
-}
+}*/

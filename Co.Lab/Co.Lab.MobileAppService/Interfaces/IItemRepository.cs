@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Co.Lab.Models;
 
-namespace Co.Lab.Models
+namespace Co.Lab.Interfaces
 {
     public interface IItemRepository
     {
