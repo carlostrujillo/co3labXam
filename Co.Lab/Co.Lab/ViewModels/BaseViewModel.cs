@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using Co.Lab.Models;
-using Co.Lab.Services;
+using CoLab.Models;
+using CoLab.Services;
 
-namespace Co.Lab.ViewModels
+namespace CoLab.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Co.Lab.Services;
-using Co.Lab.Views;
+using CoLab.Services;
+using CoLab.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Co.Lab
+namespace CoLab
 {
     public partial class App : Application
     {

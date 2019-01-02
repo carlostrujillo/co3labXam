@@ -1,18 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:Views="clr-namespace:Co.Lab.Views"
+       xmlns:Views="clr-namespace:CoLab.Views"
        RouteScheme="app" 
     RouteHost="microsoft.com" 
     Route="CoLab" 
-    x:Class="Co.Lab.AppShell">
+    x:Class="CoLab.AppShell">
 
+    <Shell.FlyoutHeader>
+        <Views:FlyoutHeader />
+    </Shell.FlyoutHeader>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <ContentView HeightRequest="32">
+                <ContentView.Padding>
+                    <Thickness Left="32"
+                           Top="16" />
+                </ContentView.Padding>
+                <Label Text="{Binding Title}" />
+            </ContentView>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+    
     <ShellItem Title="Home">
-        <ShellSection>
+        <ShellSection Title="List">
             <ShellContent>
                 <Views:ItemsPage />
             </ShellContent>
         </ShellSection>
+        <ShellSection Title="AR" >
+            <ShellContent ContentTemplate="{DataTemplate Views:AboutPage}"/>
+        </ShellSection>
+        <ShellSection Title="Photo" >
+            <ShellContent ContentTemplate="{DataTemplate Views:NewItemPage}"/>
+        </ShellSection>
+     
     </ShellItem>
+    <ShellContent Title="Profile"
+                  ContentTemplate="{DataTemplate Views:AboutPage}" />
+    <ShellContent Title="Another Page"
+                  ContentTemplate="{DataTemplate Views:AboutPage}" />
 
 </Shell>

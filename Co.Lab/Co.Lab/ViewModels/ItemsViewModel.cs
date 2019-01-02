@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using Co.Lab.Models;
-using Co.Lab.Views;
+using CoLab.Models;
+using CoLab.Views;
 
-namespace Co.Lab.ViewModels
+namespace CoLab.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {

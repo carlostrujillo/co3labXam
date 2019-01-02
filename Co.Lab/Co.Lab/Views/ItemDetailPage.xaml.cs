@@ -3,10 +3,10 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Co.Lab.Models;
-using Co.Lab.ViewModels;
+using CoLab.Models;
+using CoLab.ViewModels;
 
-namespace Co.Lab.Views
+namespace CoLab.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ItemDetailPage : ContentPage

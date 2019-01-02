@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR.Client;
 using Xamarin.Forms;
 
-namespace Co.Lab.ViewModels
+namespace CoLab.ViewModels
 {
     public class SignalRViewModel: BaseViewModel
     {

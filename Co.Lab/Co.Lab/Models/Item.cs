@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Co.Lab.Models
+namespace CoLab.Models
 {
     public class Item
     {

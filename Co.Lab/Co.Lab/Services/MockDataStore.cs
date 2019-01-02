@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Co.Lab.Models;
+using CoLab.Models;
 
-namespace Co.Lab.Services
+namespace CoLab.Services
 {
     public class MockDataStore : IDataStore<Item>
     {

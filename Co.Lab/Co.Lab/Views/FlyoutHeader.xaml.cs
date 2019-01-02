@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace CoLab
+namespace CoLab.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AppShell : Xamarin.Forms.Shell
-    {
-		public AppShell ()
+	public partial class FlyoutHeader : ContentView
+	{
+		public FlyoutHeader ()
 		{
 			InitializeComponent ();
 		}

@@ -9,10 +9,10 @@ using Xamarin.Forms.Xaml;
 
 namespace CoLab
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AppShell : Xamarin.Forms.Shell
-    {
-		public AppShell ()
+	
+	public partial class Colors 
+	{
+		public Colors ()
 		{
 			InitializeComponent ();
 		}

@@ -4,9 +4,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Co.Lab.Models;
+using CoLab.Models;
 
-namespace Co.Lab.Services
+namespace CoLab.Services
 {
     public class AzureDataStore : IDataStore<Item>
     {

@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Co.Lab.Models;
+using CoLab.Models;
 
-namespace Co.Lab.Views
+namespace CoLab.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage

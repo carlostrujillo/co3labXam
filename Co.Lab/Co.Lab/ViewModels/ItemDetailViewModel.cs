@@ -1,8 +1,8 @@
 ﻿using System;
 
-using Co.Lab.Models;
+using CoLab.Models;
 
-namespace Co.Lab.ViewModels
+namespace CoLab.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {

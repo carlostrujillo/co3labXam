@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co.Lab.Android", "Co.Lab\Co.Lab.Android\Co.Lab.Android.csproj", "{54EBEF23-0233-464F-AFA7-C310EDE06771}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoLab.Android", "Co.Lab\Co.Lab.Android\CoLab.Android.csproj", "{54EBEF23-0233-464F-AFA7-C310EDE06771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co.Lab.iOS", "Co.Lab\Co.Lab.iOS\Co.Lab.iOS.csproj", "{7FD03504-D18A-4FA4-925C-1A17A558D303}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoLab.iOS", "Co.Lab\Co.Lab.iOS\CoLab.iOS.csproj", "{7FD03504-D18A-4FA4-925C-1A17A558D303}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Co.Lab.MobileAppService", "Co.Lab\Co.Lab.MobileAppService\Co.Lab.MobileAppService.csproj", "{CBD9B1CA-4401-4B04-ADF9-B6A82EBE7695}"
 EndProject
